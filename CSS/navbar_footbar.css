@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #206a5d;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #81b214;
+}
+.navbar-nav > li {
+  cursor: pointer;
+}
+.navbar-item {
+  font-size: 1.5rem;
+  color: #81b214;
+}
+
+.page-footer,
+.footer-copyright {
+  background-color: #206a5d;
+}
+
+.page-footer ul li a {
+  font-size: 110%;
+  cursor: pointer;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+.page-footer ul li a:hover {
+  color: #81b214;
+}
+
+.footer-copyright {
+  color: #81b214;
+}

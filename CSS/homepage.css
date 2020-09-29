@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  background-image: url("../Image/bg-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100vw; */
+}
+
+.boxstyle {
+  height: 65px;
+  border-radius: 10px;
+  background-color: #81b214;
+  text-align: center;
+  font-size: large;
+}
+#wrapper {
+  cursor: pointer;
+}
+
+#wrapper :hover {
+  color: #206a5d;
+  text-decoration: none;
+}
+
+a {
+  color: #f1f1e8;
+}
+
+@media screen and (max-width: 425px) {
+  .img {
+    width: 100%;
+  }
+  .navbar-brand .img {
+    width: 100px;
+  }
+}
